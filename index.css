@@ -1,0 +1,42 @@
+body {
+    display: flex;
+}
+.mainDiv {
+    height: 250px;
+}
+img {
+    width: 100%;
+    height: 150px;
+}
+a {
+    text-decoration: none;
+}
+h4 {
+    color: black;
+    margin: 10px;
+    height: 52px;
+    overflow:hidden;
+}
+h5 {
+    color: grey;
+    margin: 10px;
+    height: 10%;
+}
+#left {
+    width: 6%;
+    height: 600px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#right {
+    width: 94%;
+    margin-left: 6.2%;
+}
+#container {
+    margin: 80px 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px 20px;
+    
+}

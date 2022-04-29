@@ -1,0 +1,64 @@
+
+#mainPage {
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    gap: 30px;
+}
+h2 {
+    font-weight:lighter;
+    margin: 20px 0;
+}
+#video > div {
+    display: flex;
+    width: 90%;
+    margin: 10px 0 10px 10%;
+    justify-content: space-between;
+}
+button {
+    background-color: #cc0000;
+    border: none;
+    color: white;
+    font-size: large;
+    height: 35px;
+    width: 120px;
+    margin-top: 10px;
+}
+#description {
+    width: 100%;
+    margin-left: 10%;
+    color:grey;
+    margin-top: 20px;
+}
+iframe {
+    border: none;
+}
+.box > a > div{
+    display: flex;
+    height: 100px;
+    margin-bottom: 10px;
+}
+img {
+    width: 45%;
+}
+.details {
+    width: 55%;
+    padding: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.name  {
+    color: grey;
+}
+.title {
+    margin-bottom: 10px;
+    height: 50%;
+    overflow: hidden;
+}
+#nav_left {
+    margin-left: 80px;
+}
