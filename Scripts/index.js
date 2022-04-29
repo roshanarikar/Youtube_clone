@@ -56,6 +56,8 @@ const videoData = (data) => {
 const searchResult = async () => {
     document.getElementById("container").innerHTML = "";
 
+
+    
     try {
         let input = document.getElementById("search_input").value;
 
